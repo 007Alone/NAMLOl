@@ -22,7 +22,7 @@ client.on('message', message => {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(`**✅   ${argresult}**`)
   } else 
-  if (message.content.startsWith(adminprefix + 'sets')) {
+  if (message.content.startsWith(adminprefix + 'set1')) {
     client.user.setGame(argresult, "https://www.twitch.tv/m3a4x");
       message.channel.send(`**✅**`)
   }
